@@ -144,3 +144,31 @@ body {
   margin-bottom: 8px;
 }
 /* End of Main Content Styles */
+
+/* Start of Quotes Section Styles */
+.quotes-section {
+  background-color: #E5E7EB;
+  padding: 108px;
+}
+
+.quotes-section blockquote {
+  margin: 0 auto;
+  width: 850px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  width: 175px;
+  margin-left: auto;
+}
+/* End of Quotes Section Styles */

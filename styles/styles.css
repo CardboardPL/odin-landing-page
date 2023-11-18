@@ -174,5 +174,42 @@ body {
 /* End of Quotes Section Styles */
 
 /* Start of CTA Section Styles */
+.cta-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  width: 1000px;
+  padding: 40px 100px;
+  margin: 96px auto;
+  border-radius: 8px;
+}
 
+.cta-section h2, .cta-sign-up-button {
+  color: #F9FAF8;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cta-section p {
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.cta-sign-up-button {
+  font-size: 18px;
+  background-color: #3882F6;
+  padding: 8px 24px;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  transition: opacity 0.15s;
+}
+
+.cta-sign-up-button:hover {
+  opacity: 0.75;
+}
+
+.cta-sign-up-button:active {
+  opacity: 0.5;
+}
 /* End of CTA Section Styles */

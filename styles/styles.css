@@ -213,3 +213,16 @@ body {
   opacity: 0.5;
 }
 /* End of CTA Section Styles */
+
+/* Start of Footer Section Styles */
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  padding: 28px;
+}
+
+footer p {
+  color: #F9FAF8;
+  margin: 0;
+}
+/* End of Footer Section Styles */

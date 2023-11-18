@@ -39,6 +39,12 @@ body {
   color: #E5E7EB;
   font-size: 18px;
   text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.header-menu a:hover {
+  color: #F9FAF8;
 }
 /* End of Header Menu Styles */
 
@@ -82,6 +88,7 @@ body {
   padding: 8px 32px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
   transition: opacity 0.15s;
 }
 
@@ -93,3 +100,47 @@ body {
   opacity: 0.5;
 }
 /* End of Hero Section Styles */
+
+/* Start of Main Content Styles */
+.main-content {
+  padding: 32px;
+  text-align: center;
+}
+
+.main-content * {
+  margin: 0;
+}
+
+.main-content h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 32px;
+}
+
+.main-content p {
+  font-size: 18px;
+}
+
+.main-content .info-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.main-content .info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.main-content .image-container {
+  height: 225px;
+  width: 200px;
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+/* End of Main Content Styles */

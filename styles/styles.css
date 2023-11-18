@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -16,7 +16,11 @@ body {
   align-items: center;
   background-color: transparent;
   width: 100%;
-  padding: 12px 36px;
+  padding: 12px 72px;
+}
+
+.header-menu * {
+  margin: 0;
 }
 
 .header-menu p {
@@ -37,3 +41,55 @@ body {
   text-decoration: none;
 }
 /* End of Header Menu Styles */
+
+/* Start of Hero Section Styles */ 
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 144px 72px;
+  gap: 16px;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 480px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero-content p, .sign-up-button {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-top: 0;
+}
+
+.hero-image {
+  flex: 1;
+  max-height: 265px;
+  max-width: 530px;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 8px;
+  transition: opacity 0.15s;
+}
+
+.sign-up-button:hover {
+  opacity: 0.75;
+}
+
+.sign-up-button:active {
+  opacity: 0.5;
+}
+/* End of Hero Section Styles */
